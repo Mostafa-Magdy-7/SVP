@@ -1,0 +1,287 @@
+body
+{   
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+.intro
+{   
+    display: flex;
+    color: #F9F7F7;
+    
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+    background-color: #112D4E;
+    height: 100vh;
+    padding: 15px;
+    
+}
+.logo-intro
+
+{ 
+    margin-right: 0px; 
+    margin-left: auto;
+    height: 200px;
+    width:200px;
+    padding-right:50px ;
+    order: 1;
+}
+.svp-table
+{
+    display: flex;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.logo
+{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: auto;
+    order: 2;
+}
+.topnav
+{   display: flex;
+    position: sticky;
+    top: 0;
+    height: 10%;
+    background-color: #F9F7F7;
+    text-decoration: none;
+}
+.topnav a
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 15%;
+    color: black;
+    transition: 0.5s;
+}
+.nav:hover
+{   color: #DBE2EF;
+    background-color: #3F72AF;
+}
+.download
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 130px;
+    margin-top: 2px;
+    height: 40px;
+    border: #000000 solid;
+    border-radius:15px;
+    transition: 0.5s;
+    
+}
+.download:hover
+{   border: #DBE2EF solid;
+    color: #F9F7F7;
+    background-color: black;
+}
+.middle
+{
+    height: 100%;
+    width: 100%;
+    background-color: #DBE2EF;
+    height: 100vh;
+}
+
+.compare-tables
+{   
+    margin-top: 100px;
+    margin-left: 2.5%;
+    width:95% ;
+    height: 200px;
+    border: #112D4E solid;
+    border-radius: 25px;
+    background-color: #09122C;
+}
+table{
+    
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        color: #DBE2EF;
+}
+td,th
+{
+    
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 12px;
+    
+    
+}
+.end
+{
+    height: 100%;
+    width: 100%;
+    background-color: #3F72AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer
+{   
+    height: 25%;
+    background-color: #112D4E;
+}
+footer
+{
+    display: flex;
+    color: #ffffff;
+    background-color: #09122C;
+    height: 50px;
+
+}
+footer img
+{   
+    margin-top:10px ;
+    height: 25px;
+}
+.icons
+{   
+    margin-right: 10px;
+    margin-left: auto; 
+    height: 35px;
+}
+/*now we will add the Media query */
+@media (min-width: 768px) {
+    
+}
+@media (max-width: 767px) {
+    body
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    video
+    {   padding-top: 10px;
+        width: 300px;
+    }
+
+    .compare-tables
+{   
+    margin-top: 50px;
+    margin-left: 1%;
+    width:auto ;
+    height: auto;
+    border: #112D4E solid;
+    
+    background-color: #09122C;
+    margin-bottom:10px;
+}
+table{
+    
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: auto;
+        color: #DBE2EF;
+}
+td,th
+{
+    
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding-left: 7px;
+    padding-top: 10px;
+    border-radius: 25px;
+    
+    
+}
+.svp-table
+{
+    display: flex;
+   padding: 25px;
+}
+footer
+{
+    padding: 5px;
+}
+.intro
+{   
+    display: flex;
+    color: #F9F7F7;
+    
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+    background-color: #112D4E;
+    height: 100vh;
+    padding: 15px;
+    flex-direction: column;
+    
+}
+.logo-intro
+
+{ 
+    margin-right: auto; 
+    margin-left: auto;
+    height: 150px;
+    width:150px;
+    padding-right:0px ;
+    order: 0;
+    
+}
+.topnav
+{   display: flex;
+    position: sticky;
+    top: 0;
+    height: 10%;
+    background-color: #F9F7F7;
+    text-decoration: none;
+    font-size: small;
+    z-index: 1000;
+}
+.topnav a
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 15%;
+    color: black;
+    transition: 0.5s;
+    padding: 1;
+}
+.nav:hover
+{   color: #DBE2EF;
+    background-color: #3F72AF;
+}
+.download
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-top: 2px;
+    height: 20px;
+    border: #000000 solid;
+    border-radius:15px;
+    transition: 0.5s;
+    font-size: smaller;
+    
+}
+.download:hover
+{   border: #DBE2EF solid;
+    color: #F9F7F7;
+    background-color: black;
+}
+    
+}
